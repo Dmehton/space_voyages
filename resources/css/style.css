@@ -1,0 +1,203 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP  */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizelegibility;
+}
+/* ----------------------------------------------- */
+/* SECTION 1 - CUSTOM NAVBAR  */
+/* ----------------------------------------------- */
+
+.custom-header {
+    background-color: #93b6d1;
+    border: none;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(191,185,191,1);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(191,185,191,1);
+    box-shadow: 0px 2px 5px 0px rgba(191,185,191,1);
+}
+
+.custom-top li a {
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-top: 3px;
+}
+
+.custom-top li a:hover {
+    color: #93b6d1;
+}
+
+/* ----------------------------------------------- */
+/* SECTION 1 - HEADER  */
+/* ----------------------------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/header_pic.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+
+.header-text-box {
+    margin-top: 50px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    
+}
+
+/* ----------------------------------------------- */
+/* HEADINGS  */
+/* ----------------------------------------------- */
+
+h1,
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 240%;
+    font-weight: 300;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 180%;
+    word-spacing: 2px;
+    color: #555;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+h3 {
+     color: #555;
+     line-height: 200%;
+     font-size: 110%;
+     margin-bottom: 15px;
+     font-weight: 300;
+     text-transform: uppercase;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: orange;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.box {
+    line-height: 150%;
+    /*margin-left: 5px;*/
+    /*width: 70%;*/
+}
+
+
+
+/* ----------------------------------------------- */
+/* SECTION 2 - FEATURES  */
+/* ----------------------------------------------- */
+
+/* ---------font-awesome icons------------- */
+
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+
+/* ----------------------------------------------- */
+/* SECTION 3 - STAY  */
+/* ----------------------------------------------- */
+
+.section-3:first-child {
+    margin-top: 30px;
+}
+
+.stay {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.stay li {
+    display: block;
+    width: 32.99%;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+.stay-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000; /* behind that div there is a background-color black*/
+}
+
+.stay-photo img {
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    -webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    -webkit-transition: -webkit-transform 0.5s, opacity 0.5s;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.stay-photo img:hover {
+    transform: scale(1.03)
+}
+
+.column-80 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.column-80 h3 {
+    text-align: center;
+}
+
+.column-80 p {
+    text-align: center;
+}
+
+/* ----------------------------------------------- */
+/* SECTION 4 - COMPANY INFO  */
+/* ----------------------------------------------- */
+
+.section-4:first-child {
+    text-align: center;
+    padding-right: 3%
+}
+
+/*.section-4:last-child {*/
+/*    text-align: right;*/
+/*}*/
