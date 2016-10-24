@@ -15,8 +15,9 @@ html {
     font-size: 20px;
     text-rendering: optimizelegibility;
 }
+
 /* ----------------------------------------------- */
-/* SECTION 1 - CUSTOM NAVBAR  */
+/* SECTION 0 - CUSTOM NAVBAR AND FOOTER */
 /* ----------------------------------------------- */
 
 .custom-header {
@@ -38,6 +39,30 @@ html {
 .custom-top li a:hover {
     color: #93b6d1;
 }
+
+.custom-bottom li a{
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 90%;
+    margin-top: 3px;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #93b6d1;
+}
+
+.footer-list li {
+    margin-top: 5px;
+    text-align: center;
+    display: block;
+    color: #fff;
+    font-size: 95%;
+}
+
 
 /* ----------------------------------------------- */
 /* SECTION 1 - HEADER  */
@@ -61,6 +86,30 @@ header {
     
 }
 
+.sub-heading {
+    color: #fff;
+}
+
+.arrow-down{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.arrow-down span{
+    border-radius: 80%;
+}
+
+.arrow-down:hover {
+    color: orange;
+}
+
+/*consistent margin top for all sections*/
+
+.section-margin {
+    margin-top: 50px;
+}
+
 /* ----------------------------------------------- */
 /* HEADINGS  */
 /* ----------------------------------------------- */
@@ -79,6 +128,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     font-weight: 300;
+    text-align: center;
 }
 
 h2 {
@@ -112,11 +162,8 @@ h2:after {
 
 .box {
     line-height: 150%;
-    /*margin-left: 5px;*/
-    /*width: 70%;*/
+    text-align: center;
 }
-
-
 
 /* ----------------------------------------------- */
 /* SECTION 2 - FEATURES  */
@@ -134,7 +181,7 @@ h2:after {
 
 
 /* ----------------------------------------------- */
-/* SECTION 3 - STAY  */
+/* SECTION 3 - STAY ON MARS  */
 /* ----------------------------------------------- */
 
 .section-3:first-child {
@@ -146,6 +193,8 @@ h2:after {
     margin-bottom: 0;
 }
 
+/*****section 3 image list collage*****/
+
 .stay li {
     display: block;
     width: 32.99%;
@@ -154,11 +203,27 @@ h2:after {
     float: left;
 }
 
+.column-80 {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.column-80 h3 {
+    text-align: center;
+}
+
+.column-80 p {
+    text-align: center;
+}
+
+
+/************resuable componenets images in section 3 and 4**************/
+
 .stay-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: #000; /* behind that div there is a background-color black*/
+    background-color: #000; 
 }
 
 .stay-photo img {
@@ -176,28 +241,42 @@ h2:after {
     transform: scale(1.03)
 }
 
-.column-80 {
-    width: 85%;
-    margin: 0 auto;
-}
-
-.column-80 h3 {
-    text-align: center;
-}
-
-.column-80 p {
-    text-align: center;
-}
 
 /* ----------------------------------------------- */
-/* SECTION 4 - COMPANY INFO  */
+/* SECTION 5 - COMPANY INFO  */
 /* ----------------------------------------------- */
 
-.section-4:first-child {
-    text-align: center;
-    padding-right: 3%
+.header-margin {
+    margin-bottom: 50px;
 }
 
-/*.section-4:last-child {*/
-/*    text-align: right;*/
-/*}*/
+.section-5 .row{
+    margin-bottom: 10px;
+}
+
+.image-pic {
+    width: 80%;
+    float: right;
+}
+
+.image-pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+.txt-align{
+    text-align: left;
+}
+
+.pricing {
+    float: right;
+}
+
+
+.column-80-section-6 {
+    text-align: left;
+}
+
+
+
