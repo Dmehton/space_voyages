@@ -6,7 +6,7 @@
 
 /* small phones from 481px to 767px */
 @media only screen and (max-width: 767px) {
-    .swag-section {
+    .exploring-mars-section {
         display: none;
     }
     
@@ -123,7 +123,6 @@
  .footer-list {
      font-size: 85%;
  }
- 
  
  
 }
