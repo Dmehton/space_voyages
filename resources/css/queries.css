@@ -4,26 +4,49 @@
     
 }
 
-/* small phones from 481px to 765px */
-@media only screen and (max-width: 765px) {
+/* small phones from 481px to 767px */
+@media only screen and (max-width: 767px) {
     .swag-section {
         display: none;
     }
+    
     .stay-photo{
         width: 40%;
         float: left;
-        
+        margin-left: 30%;
     }
-    .stay-photo-text{
-        width: 60%;
-        float: left;
+    
+    .about-us-title{
+        text-align: center;
     }
+    
+    .about-us-text{
+        text-align: center;
+    }
+    
+    .touring-mars-pic {
+        margin-bottom: 10px;
+    }
+    
+    .touring-mars-text {
+        margin-bottom: 10px;
+    }
+    
+    .txt-align {
+        text-align: center;
+    }
+    
     .section-5 {
         margin-bottom: 10px;
     }
     
-    .image-pic {
-        margin-right: 20px;
+    .image-pic{ 
+        width: 50%;
+        margin-right: 25%;
+    }
+    
+    .col-sm-5 .image-pic img{
+        width: 100%;
     }
     
     .icon-big {
@@ -35,9 +58,6 @@
         font-size: 96%;
     }
     
-    .about-us-text {
-        padding-left: 10px;
-    }
 }
 
 /* Small phones: from 0 to 480px */
@@ -45,17 +65,8 @@
     
      /*this is for section 4*/
     
-    .image-pic {
-        width: 100%;
-        padding-left: 15px;
-    }
-    
     .txt-align {
         font-size: 90%;
-    }
-    
-    .image-pic {
-        margin-right: 100px;
     }
     
     /*this is for section 5*/
@@ -66,15 +77,6 @@
     }
     
     .text-align {
-        margin-left: 10px;
-    }
-    
-    .image-pic {
-        margin-left: 10px;
-    }
-    
-    column-80 {
-        width: 80%;
         margin-left: 10px;
     }
     
@@ -114,16 +116,6 @@
   
   /*section 5 about us*/
  
- .stay-photo {
-     margin-left: 80px;
- }
- 
- .about-us-title {
-     margin-top: 110px;
-     margin-left: 100px;
-     
- }
- 
  .column-100 {
      width: 100%;
  }
@@ -132,7 +124,7 @@
      font-size: 85%;
  }
  
-
+ 
  
 }
 
