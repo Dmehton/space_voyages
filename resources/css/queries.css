@@ -4,7 +4,7 @@
     
 }
 
-/* small phones from 481px to 767px */
+/* small phones from 481px to 765px */
 @media only screen and (max-width: 765px) {
     .swag-section {
         display: none;
@@ -12,6 +12,7 @@
     .stay-photo{
         width: 40%;
         float: left;
+        
     }
     .stay-photo-text{
         width: 60%;
@@ -32,6 +33,10 @@
     
     .box {
         font-size: 96%;
+    }
+    
+    .about-us-text {
+        padding-left: 10px;
     }
 }
 
@@ -60,7 +65,18 @@
         font-size: 80%;
     }
     
+    .text-align {
+        margin-left: 10px;
+    }
     
+    .image-pic {
+        margin-left: 10px;
+    }
+    
+    column-80 {
+        width: 80%;
+        margin-left: 10px;
+    }
     
 }
 
@@ -116,6 +132,7 @@
      font-size: 85%;
  }
  
+
  
 }
 
